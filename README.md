@@ -5,7 +5,7 @@ Based on the awesome [Control Surface](https://github.com/tttapa/Control-Surface
 
 The v1 board works and I am in the process of slight improvements for a v2 that can be expanded into other modules.
 
-![](https://github.com/mbroers/mixdup/blob/master/v1/mixdup_v1.jpg | width=100)
+![](https://github.com/mbroers/mixdup/blob/master/v1/mixdup_v1.jpg)
 
 Many things are forthcoming, once I have verified the v2 board works as expected.
 - [ ] BOM
