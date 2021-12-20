@@ -7,8 +7,8 @@ The v1 board works and I am in the process of slight improvements for a v2 that 
 
 
 Many things are forthcoming, once I have verified the v2 board works as expected.
-[] BOM
-[] Panel vector/FPE files
-[] Probably a v2.2 board with a bit more potentiometer spacing, and clearer silk screen
-[] Enclosure
-[] Initial expander with Effects Racks capabilities and 5 band eq
+-[ ] BOM
+-[ ] Panel vector/FPE files
+-[ ] Probably a v2.2 board with a bit more potentiometer spacing, and clearer silk screen
+-[ ] Enclosure
+-[ ] Initial expander with Effects Racks capabilities and 5 band eq
