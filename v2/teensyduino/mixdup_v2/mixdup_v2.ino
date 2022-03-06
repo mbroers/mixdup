@@ -44,21 +44,21 @@ CCPotentiometer volumePotentiometers [] {
 
 
 CCButtonLatched pushme[] {
-  { mux2.pin(0), { MIDI_CC::General_Purpose_Controller_1, CHANNEL_5} },
-  { mux2.pin(1), { MIDI_CC::General_Purpose_Controller_1, CHANNEL_6} },
-  { mux2.pin(3), { MIDI_CC::General_Purpose_Controller_1, CHANNEL_7} },
-  { mux2.pin(4), { MIDI_CC::General_Purpose_Controller_1, CHANNEL_8} },
-  { mux4.pin(0), { MIDI_CC::General_Purpose_Controller_1, CHANNEL_9} },
-  { mux4.pin(3), { MIDI_CC::General_Purpose_Controller_1, CHANNEL_10} },
-  { mux4.pin(2), { MIDI_CC::General_Purpose_Controller_1, CHANNEL_11} },
-  { mux4.pin(5), { MIDI_CC::General_Purpose_Controller_1, CHANNEL_12} },
+  { mux2.pin(4), { MIDI_CC::General_Purpose_Controller_1, CHANNEL_5} },
+  { mux2.pin(7), { MIDI_CC::General_Purpose_Controller_1, CHANNEL_6} },
+  { mux2.pin(2), { MIDI_CC::General_Purpose_Controller_1, CHANNEL_7} },
+  { mux2.pin(3), { MIDI_CC::General_Purpose_Controller_1, CHANNEL_8} },
+  { mux4.pin(3), { MIDI_CC::General_Purpose_Controller_1, CHANNEL_9} },
+  { mux4.pin(2), { MIDI_CC::General_Purpose_Controller_1, CHANNEL_10} },
+  { mux4.pin(7), { MIDI_CC::General_Purpose_Controller_1, CHANNEL_11} },
+  { mux4.pin(4), { MIDI_CC::General_Purpose_Controller_1, CHANNEL_12} },
 };
 
 CCButton launchpad[] {
-  { mux2.pin(5), { MIDI_CC::General_Purpose_Controller_1, CHANNEL_1} },
-  { mux2.pin(2), { MIDI_CC::General_Purpose_Controller_1, CHANNEL_2} },
-  { mux4.pin(1), { MIDI_CC::General_Purpose_Controller_1, CHANNEL_3} },
-  { mux4.pin(4), { MIDI_CC::General_Purpose_Controller_1, CHANNEL_4} },
+  { mux2.pin(6), { MIDI_CC::General_Purpose_Controller_1, CHANNEL_1} },
+  { mux2.pin(0), { MIDI_CC::General_Purpose_Controller_1, CHANNEL_2} },
+  { mux4.pin(0), { MIDI_CC::General_Purpose_Controller_1, CHANNEL_3} },
+  { mux4.pin(6), { MIDI_CC::General_Purpose_Controller_1, CHANNEL_4} },
 };
 
 void setup() {
